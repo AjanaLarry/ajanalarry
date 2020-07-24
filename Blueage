@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlueAge Marketing</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="images/blueage.png" alt="Blueage Marketing Logo" class="logo">
+            <nav>
+                <a href="#" class="hide-desktop">
+                    <img src="images/ham.svg" alt="toggle menu" class="menu" id="menu">
+                </a>
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li>
+                        <img src="images/exit.svg" alt="exit menu" class="exit-btn hide-desktop" id="exit">
+                    </li>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <img src="images/server.svg" alt="server graphics" class="server">
+            <h1>
+                Digital Marketing for the Modern Era
+            </h1>
+            <p class="subhead">
+                Go digital and up-scale your business today. We help businesses grow organically.
+            </p>
+            <img src="images/scroll.svg" alt="scroll down" class="scroll hide-mobile show-desktop">
+        </section>
+    </div>
+    <div class="blue-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="images/icon-1.svg" alt="calendar icon" style="height: 81px;">
+                    <p>
+                        Start your business transformation journey today. We at BlueAge Marketing have got the right team and strategies to make your business goals a relaity.
+                    </p>
+                </li>
+                <li>
+                    <img src="images/icon-2.svg" alt="wallet icon">
+                    <p>
+                        Digital technologies such as mobile, and smart assistants are creating a world of new opportunities for businesses today, helping companies save millions. We give you value for your money.
+                    </p>
+                </li>
+                <li>
+                    <img src="images/icon-3.svg" alt="phone icon">
+                    <p>
+                        Accelerate and secure your digital transformation projects by increased product visibility and attracting the right audience. Hire a socail media manager today.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="gray-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <figure>
+                        <img src="images/user1.png" alt="user testimonial picture">
+                        <blockquote>
+                            I am very impressed with how BlueAge Marketing team has worked with us. They are doing an amazing job and I am looking forward to using there web design services again. It has been awesome.
+                        </blockquote>
+                        <figcaption>- Sarah Harwick</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/user2.png" alt="user testimonial picture">
+                        <blockquote>
+                            It is a pleasure working with the BlueAge Marketing team. I have been working with them for over a year and they always meet and exceed our expectations. They are proactive and professional. Keep up the good work!
+                        </blockquote>
+                        <figcaption>- Paul Kellermah</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <h2>GET IN TOUCH NOW</h2>
+        <a href="#" class="cta">Talk to a Brand Manager</a>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                <a href="#">
+                    <img src="images/blueage2.png" alt="logo" class="logo2">
+                </a>
+                <p class="address">
+                    Rose Palace, 10a Eletu Crescent<br>Lekki, Nigeria
+                </p>
+                <ul class="footer-links">
+                    <li>
+                        <a href="#">Terms of Service</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+        menu.addEventListener('click', function(e) {
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        });
+        exit.addEventListener('click', function(e) {
+            nav.classList.add('hide-mobile');
+            e.preventDefault();
+        });
+    </script>
+</body>
+
+</html>
