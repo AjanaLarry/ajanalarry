@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" ; name="welcome-page" content="Frontend Development, UI designs, Portfolio">
+    <title>
+        Home - Larry Codez
+    </title>
+    <link rel="stylesheet" href="/CSS/index.css">
+    <link rel="stylesheet" href="/path/to/genericons.css">
+</head>
+
+<body>
+    <div class="">
+        <header class="container">
+            <a>
+                <img src="/images/avatar2.svg" alt="top-logo" class="top-logo hide-avatar">
+            </a>
+            <nav>
+                <a href="#" class="hide-desktop">
+                    <img src="/images/ham.svg" alt="toggle menu" class="menu" id="menu">
+                </a>
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li>
+                        <img src="images/exit.svg" alt="exit menu" class="exit-btn hide-desktop" id="exit">
+                    </li>
+                    <li>
+                        <a href="index.html" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="index-portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="index-profile.html">Profile</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <img src="images/desktop3.png" alt="Larry Codez" class="desktop-picture1 show-desktop hide-mobile">
+            <div class="section-container">
+                <img src="/images/avatar2.svg" alt="top-logo" class="top-logo2 hide-mobile hide-desktop show-avatar">
+                <h1>Larry Ajana,<br>Front-end/ UI Developer
+                </h1>
+                <p class="subhead">Hi. I produce elegant, performant and accessible digital experiences, and I love what I do.</p>
+            </div>
+        </section>
+    </div>
+    <div class="color-purple">
+        <div class="frontend-container">
+            <img src="images/langtags.png" alt="js Tags" class="front-end hide-mobile show-js-tags">
+        </div>
+        <div class="action-btn-container">
+            <div class="right-arrow-btn">
+                <a href="index-portfolio.html" class="cta">Explore Portfolio<i class="icon icon-right-arrow"
+                    role="presentation"></i></a>
+                <a href="index-profile.html" class="cta">View Profile<i class="icon icon-right-arrow"
+                    role="presentation"></i></a>
+            </div>
+        </div>
+        <footer class="footer-img">
+            <img src="images/hero.svg" alt="Larry Codez" class="desktop-picture hide-desktop">
+            <img src="/images/rocket.png" alt="bottom-logo" class="hide-mobile show-desktop show-footer-logo">
+            <div>
+                <p class="footer-text">@LarryCodez</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+        menu.addEventListener('click', function(e) {
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        });
+        exit.addEventListener('click', function(e) {
+            nav.classList.add('hide-mobile');
+            e.preventDefault();
+        });
+    </script>
+</body>
+
+</html>
