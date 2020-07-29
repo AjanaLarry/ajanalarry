@@ -2007,3 +2007,466 @@ nav ul li a:hover {
 
 
 /**Profile Page CSS**/
+
+.hcontainer-pf {
+    text-align: center;
+    padding: .6em 1.2em;
+}
+
+.head-pf {
+    margin: 1em auto 0em;
+    padding: 1em;
+    color: rgb(65, 65, 65);
+}
+
+.sc-pf {
+    padding: 0;
+    margin: 0 auto 0;
+    width: 85%;
+    border-right: .01px solid rgba(214, 214, 214, 0.87);
+    border-left: .01px solid rgba(214, 214, 214, 0.87);
+    border-top: .01px solid rgba(214, 214, 214, 0.87);
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+}
+
+.pf-container {
+    width: 85%;
+    text-align: center;
+    margin: 0 auto 2em;
+    background-color: white;
+    border-bottom-left-radius: .5em;
+    border-bottom-right-radius: .5em;
+    z-index: 1;
+    height: 100%;
+    padding: 1em 0;
+}
+
+.pf-container-content {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 1.5em;
+    border-bottom: .01px solid rgba(214, 214, 214, 0.87);
+    border-right: .01px solid rgba(214, 214, 214, 0.87);
+    border-left: .01px solid rgba(214, 214, 214, 0.87);
+    ;
+    z-index: 1;
+}
+
+.pf-con {
+    border-bottom: none;
+}
+
+.img-pf-container {
+    width: 40%;
+    margin: 0 auto 0;
+}
+
+.bottom-img-pf {
+    width: 40%;
+    margin: -1em auto 0;
+}
+
+.pf-head .pf-subhead {
+    position: relative;
+    z-index: 1;
+}
+
+.pf-head1 {
+    margin: .5em 0 .5em;
+    line-height: 1.2em;
+    font-size: 1.4em;
+    font-weight: bold;
+    ;
+    color: rgb(65, 65, 65);
+}
+
+.pf-subhead1 {
+    width: 85%;
+    font-size: 1em;
+    line-height: 1.2em;
+    margin: .5em auto 1em;
+    padding: .5em auto .5em;
+    color: rgb(65, 65, 65);
+}
+
+.pf-small-head1 {
+    margin: .5em 0 .5em;
+    line-height: 1.2em;
+    font-size: 1.2em;
+    font-weight: bold;
+    ;
+    color: rgb(156, 1, 130);
+}
+
+.pf-small-subhead1 {
+    font-size: .9em;
+    line-height: 1.2em;
+    margin: .5em auto 1em;
+    padding: .5em auto .5em;
+    color: rgb(65, 65, 65);
+}
+
+.pf-smaller-head1 {
+    margin: .5em 0 .5em;
+    line-height: 1.2em;
+    font-size: 1.2em;
+    font-weight: bold;
+    ;
+    color: rgb(156, 1, 130);
+}
+
+.pf-smaller-subhead1 {
+    font-size: .9em;
+    line-height: 1.2em;
+    margin: .5em auto 1em;
+    padding: .5em auto .5em;
+    color: rgb(65, 65, 65);
+}
+
+.cta-pr {
+    margin: .5em 0 0;
+}
+
+.pf-bcolor {
+    background-color: rgb(75, 38, 136)!important;
+    padding: .5em;
+    margin: .5em auto 0;
+}
+
+.pf-color {
+    color: white;
+    margin: .5em auto .5em;
+    font-size: .9em;
+}
+
+.pr-tplogo {
+    margin: 1.5em auto -2em;
+}
+
+@media only screen and (min-width:399px) {
+    nav ul {
+        width: 50%;
+    }
+    .hide-avatar {
+        display: none;
+    }
+    .show-avatar {
+        display: inherit;
+        align-items: center;
+    }
+    .pr-tplogo {
+        width: 40%;
+    }
+    .cta {
+        border-radius: 2em;
+        width: calc(100% - 9em);
+    }
+    .sc-pf {
+        width: 80%;
+    }
+    .pf-container {
+        width: 80%;
+    }
+    .pf-bcolor {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width:445px) {
+    .img-pf-container {
+        width: 35%;
+        margin: 0 auto 0;
+    }
+    .bottom-img-pf {
+        width: 35%;
+        margin: -1em auto 0;
+    }
+    .pf-head1 {
+        margin: .5em 0 .5em;
+        line-height: 1.2em;
+        font-size: 1.6em;
+        font-weight: bold;
+        ;
+        color: rgb(65, 65, 65);
+    }
+    .pf-subhead1 {
+        width: 85%;
+        font-size: 1.2em;
+        line-height: 1.2em;
+        margin: .5em auto 1em;
+        padding: .5em auto .5em;
+        color: rgb(65, 65, 65);
+    }
+    .pf-small-head1 {
+        margin: .5em 0 .5em;
+        line-height: 1.2em;
+        font-size: 1.4em;
+        font-weight: bold;
+        ;
+        color: rgb(156, 1, 130);
+    }
+    .pf-small-subhead1 {
+        font-size: 1.1em;
+        line-height: 1.2em;
+        margin: .5em auto 1em;
+        padding: .5em auto .5em;
+        color: rgb(65, 65, 65);
+    }
+    .pf-smaller-head1 {
+        margin: .5em 0 .5em;
+        line-height: 1.2em;
+        font-size: 1.3em;
+        font-weight: bold;
+        ;
+        color: rgb(156, 1, 130);
+    }
+    .pf-smaller-subhead1 {
+        font-size: 1.05em;
+        line-height: 1.2em;
+        margin: .5em auto 1em;
+        padding: .5em auto .5em;
+        color: rgb(65, 65, 65);
+    }
+    .cta-pr {
+        margin: .5em 0 0;
+    }
+    .pr-cta {
+        font-size: 1.15em;
+    }
+    .pf-color {
+        color: white;
+        margin: .5em auto .5em;
+        font-size: 1.1em;
+    }
+}
+
+@media only screen and (min-width:515px) {
+    .pf-section {
+        width: 100%;
+    }
+    .pr-tplogo {
+        width: 30%;
+    }
+    .sc-pf {
+        width: 70%;
+    }
+    .head-pf {
+        font-size: 1.6em;
+    }
+    .pf-container {
+        width: 70%;
+    }
+    .img-pf-container {
+        width: 30%;
+        margin: 0 auto 0;
+    }
+    .pf-head1 {
+        font-size: 1.5em;
+        font-weight: bold;
+        ;
+    }
+    .pf-subhead1 {
+        width: 85%;
+        font-size: 1.1em;
+    }
+    .pf-small-head1 {
+        font-size: 1.4em;
+    }
+    .pf-small-subhead1 {
+        font-size: 1em;
+        width: 85%;
+    }
+    .pf-smaller-head1 {
+        font-size: 1.3em;
+    }
+    .pf-smaller-subhead1 {
+        font-size: 1em;
+        width: 85%;
+    }
+    .cta-pr {
+        margin: .5em 0 0;
+    }
+    .pr-cta {
+        font-size: 1.1em;
+    }
+    .bottom-img-pf {
+        width: 30%;
+        margin: -1em auto 0;
+    }
+    .pf-bcolor {
+        width: 70%;
+    }
+    .pf-color {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width:875px) {
+    .pr-tplogo {
+        width: 20%;
+    }
+    .right-arrow-btn {
+        width: 70%;
+        margin: auto auto;
+    }
+    .pf-section {
+        width: 100%;
+    }
+    .sc-pf {
+        width: 80%;
+    }
+    .head-pf {
+        font-size: 1.5em;
+    }
+    .pf-container {
+        width: 80%;
+        display: flex;
+    }
+    .pf-container-content {
+        margin: 0 auto;
+        border-bottom: none;
+        width: 90%;
+    }
+    .img-pf-container {
+        width: 30%;
+    }
+    .pf-pic {
+        margin: .5em auto .5em;
+    }
+    .pf-head1 {
+        font-size: 1.5em;
+        font-weight: bold;
+        ;
+    }
+    .pf-subhead1 {
+        width: 85%;
+        font-size: 1.1em;
+    }
+    .pf-small-head1 {
+        font-size: 1.4em;
+    }
+    .pf-small-subhead1 {
+        font-size: 1em;
+        width: 85%;
+    }
+    .pf-smaller-head1 {
+        font-size: 1.3em;
+    }
+    .pf-smaller-subhead1 {
+        font-size: 1em;
+        width: 85%;
+    }
+    .cta-pr {
+        margin: .5em 0 0;
+    }
+    .pr-cta {
+        font-size: 1.1em;
+    }
+    .bottom-img-pf {
+        width: 30%;
+        margin: -1em auto 0;
+    }
+    .pf-bcolor {
+        width: 70%;
+    }
+    .pf-color {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .cta {
+        padding: .5em;
+        font-size: 1.3em;
+        margin: 2% 10%;
+    }
+    .show-desktop {
+        display: visible;
+    }
+    .hide-desktop {
+        display: none;
+    }
+    nav ul {
+        position: inherit;
+        width: auto;
+        background: none;
+        height: auto;
+        display: flex;
+        padding-top: 0;
+    }
+    nav ul li {
+        float: left;
+    }
+    nav ul li a {
+        color: rgba(75, 74, 74, 0.507);
+        background-color: inherit;
+        text-align: right;
+        padding: 1em 2em;
+        font-size: .8em;
+    }
+    nav ul li a:hover {
+        background-color: white;
+        border: none;
+        color: black;
+        opacity: 1;
+    }
+    .active:hover {
+        border-bottom: 1.5px solid;
+    }
+    .active {
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        border-bottom: 1.5px solid;
+    }
+    .pf-container-content {
+        width: 70%;
+    }
+    .action-btn-container {
+        text-align: center;
+        padding: .4em 1.45em;
+        margin: 0;
+    }
+    .show-footer-logo {
+        width: 10%;
+        margin: 1em auto 0;
+        border-radius: 50%;
+        background-color: white;
+    }
+    .right-arrow-btn {
+        width: 70%;
+        margin: auto auto;
+    }
+    .img-pf-container {
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width:1250px) {
+    .show-footer-logo {
+        width: 10%;
+        margin: 1em auto 0;
+        border-radius: 50%;
+        background-color: white;
+    }
+    .right-arrow-btn {
+        width: 70%;
+        margin: auto auto;
+    }
+    .pr-tplogo {
+        width: 15%;
+    }
+    .img-pf-container {
+        width: 20%;
+    }
+    .head-pf {
+        margin-top: 2em;
+    }
+    .pf-container-content {
+        width: 50%;
+    }
+    .show-footer-logo {
+        width: 8%;
+    }
+}
