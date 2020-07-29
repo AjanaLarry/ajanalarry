@@ -1123,6 +1123,7 @@ nav ul li a:hover {
     border-bottom-right-radius: 1em;
     height: 90%;
     border: none;
+    text-align:center;
 }
 
 .head2 {
@@ -2132,6 +2133,7 @@ nav ul li a:hover {
     background-color: rgb(75, 38, 136)!important;
     padding: .5em;
     margin: .5em auto 0;
+    text-align:center;
 }
 
 .pf-color {
